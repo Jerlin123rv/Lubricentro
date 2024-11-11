@@ -299,5 +299,53 @@ video {
     border-radius: 8px;    
     margin: 10px;          
   }
+/* Estilo principal para escritorio */
+#inicio .header-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.header-txt {
+    text-align: left;
+}
+
+.header-txt h1, .header-txt h2, .header-txt h3,
+.header-txt p, .header-txt ul {
+    text-align: left;
+}
+
+/* Ajustes específicos para pantallas móviles */
+@media (max-width: 768px) {
+    #inicio .header-content {
+        max-width: 100%; 
+        padding: 0 15px; 
+    }
+    
+    .header-txt h1 {
+        font-size: 1.5em; 
+    }
+    
+    .header-txt h2 {
+        font-size: 1.2em;
+    }
+
+    .header-txt p, .header-txt ul li {
+        font-size: 1em; 
+    }
+
+    .header-txt ul {
+        margin-left: 15px;
+    }
+    
+    .header-txt img {
+        width: 100%;
+        margin: 10px 0; 
+    }
+}
+
   
   
