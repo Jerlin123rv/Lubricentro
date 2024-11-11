@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Dirección de correo a la que quieres enviar el mensaje
-    $destinatario = "jhoninga@lubricentro.org";
+    $destinatario = "contactolubricentrojhon@gmail.com";
 
     // Recoger los datos del formulario
     $nombre = $_POST['nombre'];
